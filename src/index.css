@@ -1035,7 +1035,6 @@ nav {
 }
 nav .gallery-title a {
   color: #000000;
-  font-family: pfpy;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -1074,7 +1073,6 @@ nav .project-title a.active {
 }
 nav .page-title a {
   color: #000000;
-  font-family: pfpy;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
