@@ -1,18 +1,16 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./pages/About";
+import Home from "./pages/Home";
 
 const App = () => {
   return (
-    <>
-      <div class="site-wrap cfix">
-        <div class="site-container">
-          <div class="site-content e2e-site-content">
-            <Header />
-            <Hero />
-          </div>
-        </div>
-      </div>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
   );
 };
 

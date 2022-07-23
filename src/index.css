@@ -1424,11 +1424,6 @@ nav .link-title {
 }
 
 @media (max-width: 768px) {
-  nav {
-    display: none;
-    padding: 0;
-    width: 100%;
-  }
   .site-header {
     padding: 40px 5%;
   }
