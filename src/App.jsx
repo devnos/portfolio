@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
         <div class="site-container">
           <div class="site-content e2e-site-content">
             <Header />
+            <Hero />
           </div>
         </div>
       </div>

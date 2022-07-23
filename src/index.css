@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200;400&family=Manrope:wght@200;700&display=swap");
+
 .site-header:after,
 .logo-wrap:after {
   clear: both;
@@ -1006,7 +1008,6 @@ nav .link-title:last-child {
 }
 
 .logo-secondary {
-  font-family: pfpy;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -1052,7 +1053,6 @@ nav .gallery-title a.active {
 }
 nav .project-title a {
   color: #aaaaaa;
-  font-family: pfpy;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -1090,7 +1090,6 @@ nav .page-title a.active {
 }
 nav .link-title a {
   color: #aaaaaa;
-  font-family: pfpy;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -1265,7 +1264,6 @@ nav .link-title {
 }
 .masthead h1 {
   color: #000000;
-  font-family: pfpy;
   font-size: 80px;
   font-style: normal;
   font-weight: 500;
@@ -1276,7 +1274,6 @@ nav .link-title {
 }
 .masthead p {
   color: #000000;
-  font-family: pfpy;
   font-size: 24px;
   font-style: normal;
   font-weight: 300;
@@ -1341,7 +1338,6 @@ nav .link-title {
 }
 
 .site-footer {
-  font-family: pfpy;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -1378,7 +1374,6 @@ nav .link-title {
 }
 
 .cookie-banner {
-  font-family: pfpy;
   width: 100%;
 }
 .cookie-banner .close-btn {
@@ -1389,7 +1384,6 @@ nav .link-title {
   height: 100%;
 }
 .lightbox-content .grid__image-caption {
-  font-family: pfpy;
 }
 
 #lightbox-wrap,
@@ -1399,7 +1393,6 @@ nav .link-title {
 
 .grid__image-caption,
 .grid__image-caption-lightbox {
-  font-family: pfpy;
 }
 
 .hamburger-click-area {
@@ -1842,7 +1835,6 @@ nav .link-title {
 .project-cover .title {
   color: #ffffff;
   float: left;
-  font-family: pfpy;
   font-size: 24px;
   font-style: normal;
   font-weight: 800;
@@ -1858,7 +1850,6 @@ nav .link-title {
 .project-cover .date {
   color: #ffffff;
   float: left;
-  font-family: pfpy;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -1874,7 +1865,6 @@ nav .link-title {
 .project-cover .custom1 {
   color: #ffffff;
   float: left;
-  font-family: pfpy;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -1890,7 +1880,6 @@ nav .link-title {
 .project-cover .custom2 {
   color: #ffffff;
   float: left;
-  font-family: pfpy;
   font-size: 13px;
   font-style: normal;
   font-weight: 400;
@@ -1906,7 +1895,6 @@ nav .link-title {
 .project-cover .description {
   color: #ffffff;
   float: left;
-  font-family: pfpy;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -2082,7 +2070,6 @@ nav .link-title {
 }
 .back-to-top a {
   color: #999999;
-  font-family: pfpy;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
