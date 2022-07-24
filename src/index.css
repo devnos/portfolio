@@ -427,6 +427,8 @@ img {
 
 p {
   margin: 0;
+  padding-bottom: 15px;
+  line-height: 1.6;
 }
 
 a {
@@ -949,6 +951,7 @@ nav .link-title:last-child {
 .logo-wrap {
   padding-left: 0%;
   padding-right: 0%;
+  white-space: nowrap; /* Prevents logo from wrapping/going into next line */
 }
 
 .nav-container {
