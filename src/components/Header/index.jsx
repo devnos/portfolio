@@ -4,13 +4,13 @@ import Logo from "../Logo";
 import { Menu, ResponsiveMenu, ResponsiveMenuButton } from "../Menu";
 
 const Container = styled.div`
-  float: left;
-  width: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
 `;
 
 const StyledMenu = styled(Menu)`
-  visibility: hidden;
-
   @media (max-width: 768px) {
     display: none;
   }
@@ -25,9 +25,9 @@ const Header = () => {
         isOpen={isMobileMenuOpen}
         close={() => setMobileMenuOpen(false)}
       />
-      <StyledMenu />
       <Container>
         <Logo />
+        <StyledMenu />
         <ResponsiveMenuButton onClick={() => setMobileMenuOpen(true)} />
       </Container>
     </header>
