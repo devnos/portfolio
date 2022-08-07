@@ -1,5 +1,7 @@
-node_modules
-build
+/node_modules
+/build/*
+/static/*
 .vscode
-yarn
+.DS_Store
+/.pnp
 editorconfig
