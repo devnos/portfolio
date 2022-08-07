@@ -2,6 +2,7 @@ import Header from "../../components/Header";
 import Hero from "../../components/Hero";
 import PageWrapper from "../../components/PageWrapper";
 import routeMap from "../../constants/routeMap";
+import Footer from "../../components/Footer";
 import styled from "styled-components";
 
 const StyledProjectLink = styled.div`
@@ -52,6 +53,7 @@ const Home = () => {
           <a href={routeMap["CUESHTY"]}>Cueshty</a>
         </ProjectLink>
       </Grid>
+      <Footer />
     </PageWrapper>
   );
 };
