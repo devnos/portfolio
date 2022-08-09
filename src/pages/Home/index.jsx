@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
-import Hero from "../../components/Hero";
 import PageWrapper from "../../components/PageWrapper";
+import Hero from "../../components/Hero";
 import routeMap from "../../constants/routeMap";
 import Footer from "../../components/Footer";
 import styled from "styled-components";

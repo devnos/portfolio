@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import PageWrapper from "../../components/PageWrapper";
 import Header from "../../components/Header";
-import PageTitle from "../../components/PageTitle";
+import { PageTitle, Subheader } from "../../components/Headers";
 import { StyledP, ContentContainer } from "../../components/Containers";
 
 const Avatar = styled.img`
@@ -50,10 +50,10 @@ const About = () => {
   return (
     <PageWrapper>
       <Header />
-      <PageTitle>About</PageTitle>
-      <AvatarContainer />
       <ContentContainer>
-        <h1>Hi again!</h1>
+        <PageTitle>About</PageTitle>
+        <AvatarContainer />
+        <Subheader>Hi again!</Subheader>
         <b>Some facts about me</b>
         <StyledP>
           I'm a UX designer with a first class honours degree in Digital Design,

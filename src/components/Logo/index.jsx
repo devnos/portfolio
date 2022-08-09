@@ -9,7 +9,7 @@ const LogoText = styled.div`
 const Logo = () => {
   return (
     <div className="logo-wrap" data-hover-hint="logo">
-      <LogoText className="logo e2e-site-logo-text logo-image has-rollover">
+      <LogoText className="logo">
         <a href={routeMap["HOME"]} className="image-normal image-link">
           NoelSantoTomas
         </a>

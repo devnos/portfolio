@@ -737,11 +737,6 @@ html:before {
   display: inline-block;
 }
 
-.logo-image,
-.logo-secondary-image {
-  width: 100%;
-}
-
 .social {
   font-size: 0;
 }
@@ -963,12 +958,6 @@ nav .link-title:last-child {
 }
 
 .logo-text {
-  float: left;
-  text-align: left;
-}
-
-.logo-image {
-  max-width: 400px;
   float: left;
   text-align: left;
 }
@@ -1420,16 +1409,7 @@ nav .link-title {
     max-width: 100%;
     padding: 0 39px 0 0;
   }
-  .logo-image {
-    margin-bottom: -5px;
-    margin-top: -5px;
-  }
-  .logo-image img {
-    max-height: 30px;
-  }
-  .logo-text {
-    /* stylelint-disable length-zero-no-unit */
-  }
+
   .logo-secondary {
     display: none;
   }
@@ -1460,7 +1440,6 @@ nav .link-title {
     right: 0;
     text-align: center;
     top: 0;
-    transition: visibility 0s ease 0.2s, opacity 0.2s ease 0s;
     z-index: 99999;
   }
   .responsive-nav nav {
@@ -1569,8 +1548,8 @@ nav .link-title {
   }
   .show-responsive-nav .responsive-nav {
     opacity: 1;
-    transition: visibility 0s ease 0s, opacity 0.2s ease 0s;
     visibility: visible;
+    transition: visibility 0s ease 0s, opacity 0.2s ease 0s;
   }
   .show-responsive-nav .responsive-nav nav {
     display: block;
