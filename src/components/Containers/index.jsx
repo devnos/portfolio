@@ -4,6 +4,13 @@ const StyledP = styled.p`
   padding: 10px 0;
 `;
 
-const ContentContainer = ({ children }) => <div>{children}</div>;
+const StyledContentContainer = styled.div`
+  max-width: 800px;
+  margin: 0 auto;
+`;
+
+const ContentContainer = ({ children }) => (
+  <StyledContentContainer>{children}</StyledContentContainer>
+);
 
 export { ContentContainer, StyledP };
