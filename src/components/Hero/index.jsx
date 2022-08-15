@@ -30,7 +30,7 @@ const HeroText = () => (
             meaningful. I'm most excited about understanding the whys &amp;
             delving into the research. See some of my work below &amp; also have
             a look at some of my smaller projects with motion &amp; web under
-            Experiments 👨‍🔬.
+            <a href="Experiments"> Experiments 👨‍🔬</a>.
           </p>
         </div>
         <div className="masthead-buttons"></div>

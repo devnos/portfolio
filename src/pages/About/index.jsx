@@ -13,12 +13,13 @@ const Avatar = styled.img`
 `;
 
 const StyledWavingHand = styled.span`
-  font-size: 120px;
+  font-size: 100px;
   animation-name: wave-animation;
   animation-duration: 0.8s;
   animation-iteration-count: infinite;
   transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
-  display: inline-block;
+  position: absolute;
+  top: -57px;
 
   @keyframes wave-animation {
     0% {
@@ -39,14 +40,21 @@ const AboutAvatar = () => (
   <Avatar src="/images/picture.png" alt="waving avatar" />
 );
 
+const StyledAvatarContainer = styled.div`
+  position: relative;
+  width: 400px;
+  margin: auto;
+`;
+
 const AvatarContainer = () => {
   return (
-    <>
+    <StyledAvatarContainer>
       <WavingHand />
       <AboutAvatar />
-    </>
+    </StyledAvatarContainer>
   );
 };
+
 const About = () => {
   return (
     <PageWrapper>

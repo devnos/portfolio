@@ -1257,13 +1257,19 @@ nav .link-title {
 .masthead p {
   color: #000000;
   font-size: 24px;
-  font-style: normal;
+  font-style: sans-serif;
   font-weight: 300;
   line-height: 36px;
   margin-bottom: 0px;
   margin-top: 0px;
   text-align: left;
   text-transform: none;
+}
+
+.masthead a,
+.masthead a:visited {
+  color: #0e6177;
+  font-weight: bold;
 }
 
 .masthead-contents {
