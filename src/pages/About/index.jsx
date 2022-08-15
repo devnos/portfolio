@@ -3,6 +3,7 @@ import PageWrapper from "../../components/PageWrapper";
 import Header from "../../components/Header";
 import { PageTitle, Subheader } from "../../components/Headers";
 import { StyledP, ContentContainer } from "../../components/Containers";
+import Footer from "../../components/Footer";
 
 const Avatar = styled.img`
   max-width: 250px;
@@ -101,6 +102,7 @@ const About = () => {
           or <a href="https://www.linkedin.com/in/noelsantotomas/">LinkedIn</a>.
         </StyledP>
       </ContentContainer>
+      <Footer />
     </PageWrapper>
   );
 };
