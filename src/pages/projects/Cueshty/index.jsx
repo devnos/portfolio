@@ -28,7 +28,7 @@ const Cueshty = () => {
         <StyledP>
           They want to establish a brand for the new venue that is a mix of
           crazy golf & pool. Alongside the activity there will be a bar with
-          drinks & food.{" "}
+          drinks & food.
         </StyledP>
         <StyledP>
           They also want promotional material that advertises the activity

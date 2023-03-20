@@ -19,7 +19,8 @@ const StyledWavingHand = styled.span`
   animation-iteration-count: infinite;
   transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
   position: absolute;
-  top: -57px;
+  top: -42px;
+  left: 20px;
 
   @keyframes wave-animation {
     0% {
